@@ -97,5 +97,35 @@
 		- 用户展示 array
 			- 用户名
 			- 单位名称
-![sss](https://github.com/LiuGenius/lingzhixin/blob/master/%E6%99%AE%E6%9F%A5%E8%AF%A6%E6%83%85.png)			
+![sss](https://github.com/LiuGenius/lingzhixin/blob/master/%E6%99%AE%E6%9F%A5%E8%AF%A6%E6%83%85.png)	
+
+##  2018-08-03 更新  ##
+- 管理员修改用户信息：管理员修改用户信息（）
+	- 发送到服务器的数据,为null就不修改，手机号不修改 例：
+	```
+		{
+		"id":"1e66e0fe11c444eeaf77eab0faea2592",
+		"name":"LiuGenius",
+		"birthday":"1999-09-09",
+		"mobile":"15274973573",
+		"passwd":"123456",
+		"sex":null,
+		"address":null,
+		"idnumber":null,
+		"email":null,
+		}
+	```	
+	- 需要服务器返回的字段
+		- 修改成功或者失败的标识	
+- 获取每个发现所有的评论信息传入发现的id，按分页查询该id下的评论信息。
+	- 发送到服务器的字段 (key-value)
+		- 发现id
+		- 要获取的条数 例：20
+		- 获取的页数 例：5
+	- 需要服务返回的字段：(array)
+		- 评论id
+		- 评论内容
+		- 评论人头像（小）
+		- 评论人昵称
+	
 
