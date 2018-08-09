@@ -162,7 +162,7 @@
 		- 11.平均分贝  （模块值为 4 时才会有值 平均分贝=总分贝/分钟）ps: /是除的意思不是或者啊啊啊啊啊
 		- 12.总分贝 （模块值为 4 时才会有值 总共产生的分贝）
 		
-		![sss](https://github.com/LiuGenius/lingzhixin/blob/master/ae0a45db0d046fcb8216e91c05b03f6.png)
+![sss](https://github.com/LiuGenius/lingzhixin/blob/master/ae0a45db0d046fcb8216e91c05b03f6.png)
 
 			
 		- 
