@@ -222,4 +222,29 @@
 	- 绑定设备数
 	- 产生报告数
 	- 用户登陆的手机号的推送id
+- 推送数据到组
+	- 发送到服务器的字段(字段名不是固定的，你那边随便改)
+		- GroupId 推送组id
+		- GroupTag 推送组tag
+		- pushTitle 推送的标题
+		- pushMsg 推送的内容
+		- adminId 发送推送的管理员id
+		
+![sss](https://github.com/LiuGenius/lingzhixin/blob/master/按设备推送.jpg)
+api: url：https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
+- 推送数据到用户
+	- 发送到服务器的字段
+		- userId 用户id
+		- userPushId 用户推送id
+		- pushTitle 推送的标题
+		- pushMsg 推送的内容
+		- adminId 发送推送的管理员id
+		
+- 推送数据到设备
+	- 发送到服务器的字段
+		- equId 设备id
+		- pushId 推送id（和设备id相同）
+		- pushTitle 推送的标题
+		- pushMsg 推送的内容
+		- adminId 发送推送的管理员id
 	
