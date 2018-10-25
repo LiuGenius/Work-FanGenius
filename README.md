@@ -248,4 +248,4 @@
 		- adminId 发送推送的管理员id
 	
 ![sss](https://github.com/LiuGenius/lingzhixin/blob/master/%E6%8C%89tag%E6%8E%A8%E9%80%81.jpg)
-api: https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
+-  极光推送api: https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
