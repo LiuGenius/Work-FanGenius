@@ -247,5 +247,6 @@
 		- pushMsg 推送的内容
 		- adminId 发送推送的管理员id
 	
+-  这是推送tag的推送构建方式
 ![sss](https://github.com/LiuGenius/lingzhixin/blob/master/%E6%8C%89tag%E6%8E%A8%E9%80%81.jpg)
 -  极光推送api: https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
