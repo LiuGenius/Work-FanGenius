@@ -230,8 +230,7 @@
 		- pushMsg 推送的内容
 		- adminId 发送推送的管理员id
 		
-![sss](https://github.com/LiuGenius/lingzhixin/blob/master/%E6%8C%89tag%E6%8E%A8%E9%80%81.jpg)
-api: url：https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
+
 - 推送数据到用户
 	- 发送到服务器的字段
 		- userId 用户id
@@ -248,3 +247,5 @@ api: url：https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
 		- pushMsg 推送的内容
 		- adminId 发送推送的管理员id
 	
+![sss](https://github.com/LiuGenius/lingzhixin/blob/master/%E6%8C%89tag%E6%8E%A8%E9%80%81.jpg)
+api: https://docs.jiguang.cn/jpush/server/sdk/java_sdk/
