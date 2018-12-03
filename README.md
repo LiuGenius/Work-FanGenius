@@ -442,9 +442,14 @@
 	- 总完成问卷调查数
 	- 今日新增用户
 	- 今日填表用户
+	- 这是现在平板应用的主页，如果激活成功会显示第二个条目，显示的字段就是这个接口要添加的字段
+	![sss](https://github.com/LiuGenius/lingzhixin/blob/master/index_page.png)
 	
 - 管理员使用cdkey激活设备功能 ，(管理员使用一串预置的字符串激活设备的‘班级管理’ ，‘测评普查’，‘问卷调查’三个功能，在激活后在主页会把问卷调查和测评普查信息展示在 心理健康教育管理平台中)
 	- 管理员id
 	- CDKEY 例：HSD3SUIWEBN5W21EFI2OEGFI212OGR5HI (这是我乱敲的，反正就是一串长字符串，可以默认在数据库里面默认生成一千个数据，如果传过来的数据在数据库中存在就删掉一条，然后把状态改成 1)
+	- 这是激活cdkey
+	![sss](https://github.com/LiuGenius/lingzhixin/blob/master/cdkey_page.png)
+
 	
 	
