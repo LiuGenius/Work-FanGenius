@@ -515,40 +515,40 @@
 	- 需要服务返回的字段
 		- APP发现数据 JSONObject
 			- 图文数据 JSONObject
-				- 分享量 String
-				- 阅读量 String
-				- 评论量 String
+				- 分享量 int
+				- 阅读量 int
+				- 评论量 int
 			- 视频数据 JSONObject
-				- 分享量 String
-				- 阅读量 String
-				- 评论量 String
+				- 分享量 int
+				- 阅读量 int
+				- 评论量 int
 			- 报告数据 JSONObject
 				- 一月 int
 				- 二月 int 
 				....
 				- 十二月 int
-			- 用户年龄数据
+			- 用户年龄数据 JSONObject
 				- age7_13 int
 				- age14_16 int
 				- age17_19 int
 				- age20_23 int
 				- age24_28 int
 				- age29_ int
-			- APP数据
+			- APP数据 JSONObject
 				- 今日下载量
 				- 总下载量
 				- 今日发现阅读数
 				- 今日评论数
-			- 用户数据
+			- 用户数据 JSONObject
 				- 一月 int
 				- 二月 int 
 				....
 				- 十二月 int
-			- 设备数据
-				- 总设备数
-				- 今日新增设备数
-				- 今日新增用户绑定数
-				- 已被管理员绑定设备数
+			- 设备数据 JSONObject
+				- 总设备数 int
+				- 今日新增设备数 int
+				- 今日新增用户绑定数 int
+				- 已被管理员绑定设备数 int
 				
 				
 				
